@@ -66,5 +66,137 @@ grandes programas complexos.
  % }
 \end{table}
 
+\vspace{5cm}
+
+
+\section{Compilador e Interpretadior}
+O Compilador e o Interpretador têm trabalhos semelhantes a realizar.
+Ambos convertem o Código Fonte (HLL) em Código de Máquina (entendido pelo computador).
+Em geral, os programas de computador existem em Linguagem de Alto Nível que um ser humano
+pode entender facilmente. Mas os computadores não podem entender a mesma linguagem de
+alto nível, então precisamos convertê-los para linguagem de máquina e torná-los compreensíveis
+para os computadores.
+
+\subsection{O Compilador}
+O Compilador é um tradutor que recebe a entrada, ou seja, a Linguagem de Alto Nível,
+e produz uma saída em linguagem de baixo nível, ou seja, linguagem de máquina ou assembly.
+O trabalho de um compilador é transformar os códigos escritos na linguagem de programação
+em código de máquina (formato de 0s e 1s) para que os computadores possam entender.
+
+
+
+\subsection{Vantagens do Compilador}
+
+\begin{itemize}
+    \item O código compilado é mais rápido em comparação com o código interpretado.
+    \item Os compiladores ajudam a melhorar a segurança das aplicações.
+    \item Os compiladores fornecem ferramentas de depuração, que ajudam a corrigir erros facilmente.
+\end{itemize}
+
+\subsection{Desvantagens do Compilador}
+
+\begin{itemize}
+    \item O compilador só pode detectar erros de sintaxe e alguns erros semânticos.
+    \item A compilação pode levar mais tempo no caso de código volumoso.
+
+\end{itemize}
+
+
+\subsection{Interpretador}
+
+Um Interpretador é um programa que traduz uma linguagem de programação para uma linguagem
+compreensível. O interpretador converte a linguagem de alto nível para uma linguagem intermediária.
+Ele contém código pré-compilado, código-fonte, etc.
+
+\begin{itemize}
+    \item Ele traduz apenas uma instrução do programa de cada vez.
+    \item Os interpretadores, na maioria das vezes, são menores que os compiladores.
+\end{itemize}
+
+\subsection{Vantagens do Interpretador}
+
+\begin{itemize}
+    \item Programas escritos em uma linguagem interpretada são mais fáceis de depurar.
+    \item Os interpretadores permitem a gestão automática da memória, o que reduz os riscos de
+    erros de memória.
+    \item A linguagem interpretada é mais flexível do que uma linguagem compilada.
+\end{itemize}
+
+\subsection{Desvantagens do Interpretador}
+
+\begin{itemize}
+        \item O interpretador só pode executar o programa interpretado correspondente.
+        \item O código interpretado é mais lento em comparação com o código compilado.
+\end{itemize}
+
+% \vspace{13cm}
+
+%\begin{comment}
+
+\section{\textbf{Diferença entre Compilador e Interpretador}}
+
+\begin{tabular}{|p{0.45\linewidth}|p{0.45\linewidth}|}
+\hline
+\textbf{Compilador} & \textbf{Interpretador} \\
+\hline
+
+\begin{comment}
+\textbf{Passos da Programação:} & \textbf{Passos da Programação:} \\
+\hline
+1. Criação do Programa. & 1. Criação do Programa. \\
+\hline
+2. Análise da linguagem pelo compilador e gera erros em caso de declarações incorretas.
+    & 2. Não é necessário vincular arquivos ou gerar Código de Máquina pelo Interpretador. \\
+\hline
+3. Se não houver erros, o compilador converte o código fonte em Código de Máquina.
+    & 3. Execução das instruções de origem uma por uma. \\
+\hline
+4. Vinculação de vários arquivos de código em um programa executável.
+& 4. O compilador salva a linguagem de máquina em forma de Código de Máquina em discos. \\
+\hline
+5. Finalmente, executa um programa. & 5. O Interpretador não salva a Linguagem de Máquina. \\
+\hline
+\end{comment}
+
+\textbf{Diferenças:} & \textbf{Diferenças:} \\
+\hline
+- Códigos compilados são mais rápidos que interpretados.
+& - Códigos interpretados são mais lentos que compilados. \\
+\hline
+- Modelo de trabalho básico do compilador é o Modelo de Vinculação-Carregamento.
+& - Modelo de trabalho básico do Interpretador é o Modelo de Interpretação. \\
+\hline
+- Compilador gera uma saída no formato (.exe).
+& - Interpretador não gera nenhuma saída. \\
+\hline
+- Qualquer alteração no programa fonte após a compilação requer recompilar todo o código.
+& - Qualquer alteração no programa fonte durante a tradução não requer retradução de todo o código. \\
+\hline
+- Erros são exibidos no compilador após a compilação no momento atual.
+& - Erros são exibidos em cada linha. \\
+\hline
+- Compilador pode ver o código antecipadamente, o que ajuda na execução mais rápida devido
+à otimização. & - Interpretador funciona linha por linha, por isso a otimização é um pouco
+mais lenta em comparação com compiladores. \\
+\hline
+- Não requer código fonte para execução posterior.
+& - Requer código fonte para execução posterior. \\
+\hline
+- Compiladores geralmente levam mais tempo para analisar o código fonte.
+& - Em comparação, Interpretadores levam menos tempo para analisar o código fonte. \\
+\hline
+- Utilização da CPU é maior no caso de um Compilador.
+& - Utilização da CPU é menor no caso de um Interpretador. \\
+\hline
+- Código-objeto é salvo permanentemente para uso futuro.
+& - Nenhum código-objeto é salvo para uso futuro. \\
+\hline
+- Linguagens como C, C++, são baseadas em compiladores.
+& - Linguagens como Python, Ruby, Perl, SNOBOL, MATLAB são baseadas em interpretadores. \\
+\hline
+\end{tabular}
+
+%\begin{comment}
+
 \end{document}
 
