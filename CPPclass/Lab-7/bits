@@ -1,0 +1,15 @@
+0111110001000000000000000000000
+
+0   1  1  1  1 1 0 0
+128 64 32 16 8 4 2 1
+
+64+32+16+8+4=
+
+//fazendo em bash por motivos de sim
+#!/bin/bash
+echo expr 64+32+16+8+4
+
+nono bits = 0 = expo positivo
+
+decimo bit = 1, resto tudo = 0
+valor = 2 elevado a 22
